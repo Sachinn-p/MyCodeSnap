@@ -1,0 +1,23 @@
+{
+  "id": "7ccf2abb",
+  "phase": "steer_done",
+  "pageUrl": "http://localhost:5173/",
+  "sourceFile": null,
+  "previewFile": null,
+  "previewMode": null,
+  "expectedVariants": 0,
+  "arrivedVariants": 0,
+  "visibleVariant": null,
+  "paramValues": {},
+  "pendingEventSeq": null,
+  "pendingEvent": null,
+  "deliveryLease": null,
+  "checkpointRevision": 2,
+  "activeOwner": "e297f593",
+  "sourceMarkers": {},
+  "fallbackMode": null,
+  "annotationArtifacts": [],
+  "diagnostics": [],
+  "updatedAt": "2026-07-16T06:44:49.022Z",
+  "message": "Toolbar grouped into a node-add cluster with visual border; empty canvas now shows onboarding hints + keyboard shortcuts; Clear button demoted to icon-only with a separator from Fit."
+}

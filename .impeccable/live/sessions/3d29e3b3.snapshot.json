@@ -1,0 +1,27 @@
+{
+  "id": "3d29e3b3",
+  "phase": "steer_requested",
+  "pageUrl": "http://localhost:5173/",
+  "sourceFile": null,
+  "previewFile": null,
+  "previewMode": null,
+  "expectedVariants": 0,
+  "arrivedVariants": 0,
+  "visibleVariant": null,
+  "paramValues": {},
+  "pendingEventSeq": 3,
+  "pendingEvent": {
+    "type": "steer",
+    "id": "3d29e3b3",
+    "message": "impeccable critique",
+    "pageUrl": "http://localhost:5173/"
+  },
+  "deliveryLease": null,
+  "checkpointRevision": 2,
+  "activeOwner": "3b867e99",
+  "sourceMarkers": {},
+  "fallbackMode": null,
+  "annotationArtifacts": [],
+  "diagnostics": [],
+  "updatedAt": "2026-07-16T06:57:32.550Z"
+}
