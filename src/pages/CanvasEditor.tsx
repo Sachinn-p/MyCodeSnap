@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 import CanvasWorkspace from "../components/canvas/CanvasWorkspace";
 import { useCanvasStore } from "../stores/useCanvasStore";
 import CodeSettingsPanel from "../components/settings/CodeSettingsPanel";
@@ -137,6 +138,12 @@ export default function CanvasEditor() {
           </div>
           
           <div className="h-4 w-px bg-white/10 mx-2" />
+
+          <Link to="/about" className="text-xs font-semibold text-neutral-500 hover:text-neutral-200 transition-colors mr-2 hidden sm:block">
+            About
+          </Link>
+          
+          <div className="h-4 w-px bg-white/10 mr-2 hidden sm:block" />
           
           {/* Add node buttons — grouped as a cluster */}
           <div className="flex items-center gap-1">
