@@ -10,8 +10,7 @@ import TextSettingsPanel from "../components/settings/TextSettingsPanel";
 import APISettingsPanel from "../components/settings/APISettingsPanel";
 import DatabaseSettingsPanel from "../components/settings/DatabaseSettingsPanel";
 import ProfileSettingsPanel from "../components/settings/ProfileSettingsPanel";
-import DiffEditorPanel from "../components/editor/DiffEditorPanel";
-import { Plus, Download, Trash2, Terminal, ArrowUpToLine, ArrowDownToLine, ArrowUp, ArrowDown, GripHorizontal, Database, Globe, UserCircle2, Maximize2, ZoomIn, ZoomOut, Focus, Keyboard, X, Copy } from "lucide-react";
+import { Plus, Download, Trash2, Terminal, ArrowUpToLine, ArrowDownToLine, ArrowUp, ArrowDown, Database, Globe, UserCircle2, Maximize2, ZoomIn, ZoomOut, Focus, Keyboard, X, Copy } from "lucide-react";
 import { Tooltip } from "../components/ui/Tooltip";
 import { toCanvas, toSvg, getFontEmbedCSS } from "html-to-image";
 import { motion, AnimatePresence } from "framer-motion";
@@ -24,14 +23,7 @@ export default function CanvasEditor() {
 
   // Removed auto-add default node to allow completely empty canvas
 
-  const handleAddCodeNode = () => {
-    addNode({
-      type: "code",
-      x: canvasSettings.width / 2 - 200, 
-      y: canvasSettings.height / 2 - 100,
-      data: {}
-    });
-  };
+
 
   const [isExporting, setIsExporting] = useState(false);
   const [showExportMenu, setShowExportMenu] = useState(false);

@@ -1,32 +1,60 @@
-# React + TypeScript + Vite
+# MyCodeSnap
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<div align="center">
+  <img src="./public/logo.png" alt="MyCodeSnap Logo" width="120" />
+</div>
 
-Currently, two official plugins are available:
+<p align="center">
+  <strong>The fastest way for developers to make technical content look intentional.</strong>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+MyCodeSnap (formerly DevPost Studio / CodeDiff) is an advanced canvas platform designed for composing and exporting beautiful technical visuals. It turns raw developer artifacts—code snippets, git diffs, terminal sessions, API payloads, and database schemas—into polished, high-fidelity images ready to be shared on social media, blogs, or team documentation.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Code Snapshots:** Create stunning, syntax-highlighted code images with beautiful backgrounds.
+- **Git Diffs:** Showcase code changes with a clean, professional diff viewer.
+- **Terminal Simulator:** Render terminal commands and outputs with authentic aesthetics.
+- **API Response Viewer:** Visualize JSON payloads and HTTP requests effortlessly.
+- **Database Schema Designer:** Document and share database architecture visually.
+- **Architecture Canvas:** An infinite, interactive workspace (node-based) to compose complex technical diagrams and workflows.
+- **High-Quality Export:** Export your creations seamlessly to PNG, JPG, or SVG using a custom built export engine optimized for infinite canvas layouts.
 
-## Expanding the Oxlint configuration
+## 🛠️ Technology Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- **Framework:** React + Vite
+- **Language:** TypeScript
+- **Styling:** TailwindCSS
+- **Animations:** Framer Motion
+- **State Management:** Zustand
+- **Icons:** Lucide React
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## 🚀 Getting Started
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+To run MyCodeSnap locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Sachinn-p/MyCodeSnap.git
+   cd MyCodeSnap
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to the local URL provided by Vite (usually `http://localhost:5173`).
+
+## 🎨 Design Philosophy
+
+Easy, elegant, efficient. The tool is built by developers, for developers, with opinionated defaults and zero friction. The UI is designed to get out of your way so that your technical content remains the hero.
+
+## 📝 License
+
+MIT
